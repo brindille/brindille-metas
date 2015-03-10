@@ -1,0 +1,40 @@
+{
+  "name": "brindille-metas",
+  "version": "1.0.0",
+  "description": "Play with meta tags",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Valentin Daguenet",
+    "email": "valentin.daguenet@gmail.com",
+    "url": "https://github.com/vdaguenet"
+  },
+  "contributors": [
+    {
+      "name": "Guillaume Gouessan",
+      "email": "guillaume.gouessan@gmail.com"
+    }
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "budo": "^1.2.2",
+    "garnish": "^2.1.0",
+    "watchify": "^2.4.0"
+  },
+  "scripts": {
+    "test": "budo test/test.js | garnish",
+    "start": "budo demo/demo.js | garnish"
+  },
+  "keywords": [
+    "metas",
+    "tags"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brindille/brindille-metas.git"
+  },
+  "homepage": "https://github.com/brindille/brindille-metas",
+  "bugs": {
+    "url": "https://github.com/brindille/brindille-metas/issues"
+  }
+}
