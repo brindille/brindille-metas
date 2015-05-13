@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/brindille/brindille-metas.svg?branch=master)](https://travis-ci.org/brindille/brindille-metas)
+
 # brindille-metas
 
 Play with meta tags
