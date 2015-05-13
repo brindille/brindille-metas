@@ -18,11 +18,13 @@
   "dependencies": {},
   "devDependencies": {
     "budo": "^1.2.2",
+    "chai": "^2.3.0",
     "garnish": "^2.1.0",
+    "mochify": "^2.8.1",
     "watchify": "^2.4.0"
   },
   "scripts": {
-    "test": "budo test/test.js | garnish",
+    "test": "mochify",
     "start": "budo demo/demo.js | garnish"
   },
   "keywords": [
